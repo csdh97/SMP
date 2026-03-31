@@ -7,11 +7,15 @@ This repository contains the official codebase for the paper:
 
 ## Introduction
 
-SMP is a simple yet effective proxy strategy designed for pre-training protein interaction models. 
+SMP (Split-and-Merge Proxy) is a simple yet effective proxy strategy designed for pre-training protein interaction models. 
 
-The overall framework consists of two stages: split and merge. In the split stage, each monomeric protein is partitioned to form a pseudo-dimer composed of two subsequences with corresponding structural information
+The overall framework consists of two stages: **Split** and **Merge**.
 
-In the merge stage, pairwise pseudo-dimers are embedded as the input for sequence-based or structure-based interaction models. The models are trained using labels derived from the split procedure, enabling task-specific pre-training for interaction prediction. Subsequently, the pre-trained models are fine-tuned on real protein dimer datasets without architectural modification, serving as strong initializations for downstream task.
+1. Split Stage: Each monomeric protein is partitioned to form a pseudo-dimer composed of two subsequences with corresponding structural information.
+
+2. Merge Stage: Pairwise pseudo-dimers are embedded as the input for sequence-based or structure-based interaction models. The models are trained using labels derived from the split procedure, enabling task-specific pre-training for interaction prediction. 
+
+Subsequently, the pre-trained models are fine-tuned on real protein dimer datasets without architectural modification, serving as strong initializations for downstream task.
 
 ---
 
