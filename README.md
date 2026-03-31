@@ -1,6 +1,6 @@
 # Improving protein and protein interactions using pseudo-dimers derived from monomeric proteins
 This repository contains the official codebase for the paper:
-**Improving protein and protein interactions using pseudo-dimers derived from monomeric proteins** (Nature Communications 2026)
+**Improving protein and protein interactions using pseudo-dimers derived from monomeric proteins** (Nature Communications 2026).
 
 
 ---
