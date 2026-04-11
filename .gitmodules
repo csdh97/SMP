@@ -1,9 +1,0 @@
-[submodule "smp-contact"]
-	path = smp-contact
-	url = git@github.com:Split-and-Merge-Proxy/smp-contact.git
-[submodule "smp-docking"]
-	path = smp-docking
-	url = git@github.com:Split-and-Merge-Proxy/smp-docking.git
-[submodule "smp-ppi"]
-	path = smp-ppi
-	url = git@github.com:Split-and-Merge-Proxy/smp-ppi.git
